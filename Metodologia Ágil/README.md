@@ -114,7 +114,28 @@
 
 - O quadro Kaban: composto por 3 colunas (to-do, doing e done) para situar o andamento do produto sendo desenvolvido.
 
+### OKR (Objectives Key Results):
 
+- Método de gestão ágil e tem como objetivo simplificar a forma de encarar os chamados principais objetivos estratégicos de uma empresa.
+
+- Objectives: 
+    1) Os objetivos do OKR são descrições qualitativas que apontam a direção que deverá ser seguida pela empresa.
+    2) Os objetivos devem ser claros, inspiradores, desafiadores e alinhados com a missão do negócio.
+    4) Em alguns casos, os objetivos também podem trazer números (ex.: aumentar lucro em 10%), mas sempre direcionados a um propósito mais amplo.
+
+- Exemplos:
+    * Criar uma experiência inesquecível para o cliente em todos os pontos de contato;
+    * Crescer as vendas na região sul do país, dominando a região;
+    * Tornar-se referência nacional e autoridade absolta na área de Educação em Tecnologia.
+
+- Key Results:
+    1) Os resultados-chave, também chamados apenas de KRs, são **metas** que determinam o atingimento do objetivo na metodologia OKR.
+    2) São baseadas em indicadores-chave de desempenho (KPIs).
+    3) São quantitativas.
+    4) SMART: Specific, Mensurable, Attainable, Relevant and Timely.
+
+    * Assim, os KRs servirão de referência para indicar o progresso em direção ao objetivo principal.
+ 
 
 
 
