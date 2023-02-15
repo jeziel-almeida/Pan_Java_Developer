@@ -1,4 +1,4 @@
-with open('Metodologia Ágil/README.md, 'r') as file:
+with open('Metodologia Ágil/README.md', 'r') as file:
     texto = file.read()
     count = len(texto.split())
     print(f"O arquivo 'Modelo Ágil/README.md' contém {count} palavras")
