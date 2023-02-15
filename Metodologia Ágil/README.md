@@ -136,13 +136,49 @@
 
     * Assim, os KRs servirão de referência para indicar o progresso em direção ao objetivo principal.
  
+- Exemplo OKR:
+    * Objective: "Criar uma experiência inesquecível para o cliente em todos os pontos de contato."
+    * Key Results:
+        1) KR1 - Integrar a base de dados dos 5 canais de atendimento.
+        2) KR2 - Contratar mais 15 atendentes e 1 gestor de comunidade.
+        3) KR3 - Alcançar um NPS de 80%.
+
+- Benefícios
+    * Agilidade.
+    * Cooperação.
+    * Transparência.
+    * Monitoramento contínuo.
 
 
+### Ferramentas para Gestão Ágil:
+
+- Algumas ferramentas utilizadas para gestão ágil de projetos:
+    * Trello
+    * Notion
+    * Miro
+    * Monday
+    * EasyRetro
+    * Jira
+    * Clickup
+    * Pipefy
+    * Asana
 
 
+### Links úteis:
 
+- [Manifesto para Desenvolvimento Ágil de Software](https://agilemanifesto.org/iso/ptbr/manifesto.html)
 
+- [Scrum.org](https://www.scrum.org/)
 
+- [Download - Scrum Guide](https://scrumguides.org/index.html)
 
+- [Kanban University](https://kanban.university/)
 
- 
+- Notícias/Artigos:
+    * <https://forbes.com.br/forbes-tech/2022/06/marcelo-ciascasua-lideranca-e-agil/>
+    * <https://forbes.com.br/forbesesg/2021/12/heineken-aplica-prototipagem-para-levar-energia-renovavel-a-bares/>
+
+- Dicas de Leitura:
+    * Mindset - Carol S. Dweck.
+    * Anti-frágil - Nassim Nicholas Taleb.
+    * Scrum: A arte de fazer o dobro do trabalho na metade do tempo - Jeff Sutherland.
