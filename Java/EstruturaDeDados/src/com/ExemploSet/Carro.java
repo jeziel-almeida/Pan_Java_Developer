@@ -1,6 +1,6 @@
-package com.EqualsEHashcode;
+package com.ExemploSet;
 
-public class Carro {
+public class Carro implements Comparable<Carro> {
     
     private String marca;
 
@@ -45,5 +45,23 @@ public class Carro {
     public String toString() {
         return "Carro [marca=" + marca + "]";
     }
+
+    //* CompareTo em ordem do menor para o maior */
+    // @Override
+    // public int compareTo(Carro o) {
+    //     if(this.marca.length() < o.marca.length()) {
+    //         return -1;
+    //     } else if(this.marca.length() > o.marca.length()) {
+    //         return 1;
+    //     }
+    //     return 0;
+    // }
+
+    //* CompareTo em ordem alfabética */
+    @Override
+    public int compareTo(Carro o) {
+        return this.getMarca().compareTo(o.getMarca());
+    }
     
 }
+
