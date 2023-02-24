@@ -30,14 +30,16 @@ public class ExercicioSuspeito {
         System.out.println("Responda sim ou não para cada pergunta!");
         
         for(int i = 0; i < 5; i++) {
-            System.out.println(perguntas[0]);
+            System.out.println(perguntas.get(i));
             respostas[i] = scanner.next();
         }
+
+        scanner.close();
         
         int qtdSim = 0;
-        
-        for(int i = 0; i < 5; i++ {
-            if(respostas[i] == "sim") {
+
+        for(String resposta : respostas) {
+            if(resposta.equals("sim")) {
                 qtdSim++;
             }
         }
@@ -45,14 +47,19 @@ public class ExercicioSuspeito {
         System.out.println("--- Resultado ---");
         
         switch(qtdSim) {
-            case 1:
+            case 0, 1:
                 System.out.println("Inocente");
+                break;
             case 2:
-                System.out.println("Suspeita");
+                System.out.println("Suspeito");
+                break;
             case 3, 4:
                 System.out.println("Cúmplice");
+                break;
             case 5:
-                System.out.println("Assassina");
+                System.out.println("Assassino");
+                break;
         }
+
     }
 }
