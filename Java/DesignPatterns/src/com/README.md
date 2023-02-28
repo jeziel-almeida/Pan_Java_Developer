@@ -85,3 +85,43 @@ public class Weather {
 }
 ```
 
+Aqui está a implementação completa do exemplo
+
+```java
+    var weather = new Weather();
+    weather.addObserver(new Orcs());
+    weather.addObserver(new Hobbits());
+    weather.timePasses();
+    weather.timePasses();
+    weather.timePasses();
+    weather.timePasses();
+```
+
+Saída do programa:
+
+```
+The weather changed to rainy.
+The orcs are facing rainy weather now
+The hobbits are facing rainy weather now
+The weather changed to windy.
+The orcs are facing windy weather now
+The hobbits are facing windy weather now
+The weather changed to cold.
+The orcs are facing cold weather now
+The hobbits are facing cold weather now
+The weather changed to sunny.
+The orcs are facing sunny weather now
+The hobbits are facing sunny weather now
+```
+
+## Diagrama de classes
+
+![alt text](./etc/observer.png "Observer")
+
+## Aplicação
+
+Use o padrão Observer nas seguintes situações:
+
+* Quando a abstração tem dois aspectos, um dependente do outro. Encapsulando esses aspectos em objetos separados permite diversificá-los e reutilizá-los separadamente.
+* Quando a mudança de um objeto requer mudança em outros, e você não sabe quantos objetos precisam ser mudados.
+* Quando um objeto deve ser capaz de notificar outros objetos sem precisar saber quem esses objetos são. Em outras palavras, você não quer esses objetos muito acoplados.
