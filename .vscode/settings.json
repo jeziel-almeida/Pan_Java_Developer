@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "Java/maven-exemplo/src/main/java",
+        "Java/maven-exemplo/src/test/java",
+        "Java/TratamentoDeExcecoes/src",
+        "Java/DesignPatters/src",
+        "Java/EstruturaDeDados/src",
+        "Java/JavaBasico/src"
+    ]
+}
