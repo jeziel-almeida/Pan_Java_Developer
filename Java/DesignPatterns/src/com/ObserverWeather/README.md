@@ -1,4 +1,4 @@
-## Design Pattern: Observer
+# Design Pattern: Observer
 
 ## Definição
 * Define uma dependência de um-para-muitos entre objetos. Dessa forma, quando um objeto muda de estado, todos os outros objetos que são dependentes dele são notificados e atualizados automaticamente.
@@ -24,22 +24,20 @@ public interface WeatherObserver {
   void update(WeatherType currentWeather);
 }
 
-@Slf4j
 public class Orcs implements WeatherObserver {
 
   @Override
   public void update(WeatherType currentWeather) {
-    LOGGER.info("The orcs are facing " + currentWeather.getDescription() + " weather now");
+    System.out.println("The orcs are facing " + currentWeather.getDescription() + " weather now");
   }
 }
 
-@Slf4j
 public class Hobbits implements WeatherObserver {
 
   @Override
   public void update(WeatherType currentWeather) {
     switch (currentWeather) {
-      LOGGER.info("The hobbits are facing " + currentWeather.getDescription() + " weather now");
+      System.out.println("The hobbits are facing " + currentWeather.getDescription() + " weather now");
     }
   }
 }
@@ -48,7 +46,6 @@ public class Hobbits implements WeatherObserver {
 Temos também o `Weather` que está mudando constantemente.
 
 ```java
-@Slf4j
 public class Weather {
 
   private WeatherType currentWeather;
@@ -73,7 +70,7 @@ public class Weather {
   public void timePasses() {
     var enumValues = WeatherType.values();
     currentWeather = enumValues[(currentWeather.ordinal() + 1) % enumValues.length];
-    LOGGER.info("The weather changed to {}.", currentWeather);
+    System.out.println("The weather changed to " + currentWeather);
     notifyObservers();
   }
 
@@ -116,7 +113,7 @@ The hobbits are facing sunny weather now
 
 ## Diagrama de classes
 
-![alt text](./etc/observer.png "Observer")
+![alt text](./img/observer.png "Observer")
 
 ## Aplicação
 
