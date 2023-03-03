@@ -12,6 +12,6 @@
         "Maven/maven-parent/core/src/main/java",
         "Maven/maven-parent/service/src/main/java",
         "Gradle/testes/app/src/main/java",
-        "Gradle/testes/app/src/test/java"
+        "Maven/junit-exemplos/src/main/java"
     ]
 }
