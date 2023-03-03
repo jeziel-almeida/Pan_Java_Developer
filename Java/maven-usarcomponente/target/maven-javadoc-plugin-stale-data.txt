@@ -1,0 +1,47 @@
+@options
+@packages
+-classpath
+'/home/codespace/.m2/repository/com/example/maven-exemplo/1.0-SNAPSHOT/maven-exemplo-1.0-SNAPSHOT.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.7'
+-sourcepath
+'/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'maven-usarcomponente 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' '/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'maven-usarcomponente 1.0-SNAPSHOT API'
+com.teste
+/home/codespace/.m2/repository/com/example/maven-exemplo/1.0-SNAPSHOT/maven-exemplo-1.0-SNAPSHOT.jar = 1677688825092
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/src/main/java = 1677689833109
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/overview-tree.html = 1677812076428
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/search.js = 1677812076508
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/module-search-index.js = 1677812076484
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/index-all.html = 1677812076500
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/index.html = 1677812076500
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/script.js = 1677812076508
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/stylesheet.css = 1677812076508
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/member-search-index.js = 1677812076484
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/help-doc.html = 1677812076504
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/type-search-index.js = 1677812076484
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/jquery-ui.overrides.css = 1677812076528
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/tag-search-index.js = 1677812076484
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/package-search-index.js = 1677812076484
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/allclasses-index.html = 1677812076464
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/allpackages-index.html = 1677812076484
+/workspaces/Pan_Java_Developer/Java/maven-usarcomponente/target/site/apidocs/element-list = 1677812076392

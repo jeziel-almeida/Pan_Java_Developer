@@ -1,12 +1,16 @@
 {
     "java.project.sourcePaths": [
+        "Java/DesignPatterns/src",
+        "Java/EstruturaDeDados/src",
+        "Java/JavaBasico/src",
         "Java/maven-exemplo/src/main/java",
         "Java/maven-exemplo/src/test/java",
         "Java/maven-usarcomponente/src/main/java",
         "Java/maven-usarcomponente/src/test/java",
         "Java/TratamentoDeExcecoes/src",
-        "Java/DesignPatterns/src",
-        "Java/EstruturaDeDados/src",
-        "Java/JavaBasico/src"
+        "Maven/maven-parent/src/main/java",
+        "Maven/maven-parent/core/src/main/java",
+        "Maven/maven-parent/service/src/main/java",
+        "Gradle/testes/app/src/main/java"
     ]
 }

@@ -31,3 +31,11 @@
 * Maven help:
 
     `mvn -h`
+
+* Dependencies classpath:
+
+    `mvn dependency:build-classpath -DincludeScope=compile`
+
+    `mvn dependency:build-classpath -DincludeScope=test`
+    
+    `mvn dependency:build-classpath -DincludeScope=runtime`
