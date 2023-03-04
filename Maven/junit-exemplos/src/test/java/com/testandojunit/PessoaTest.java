@@ -9,9 +9,9 @@ public class PessoaTest {
     
     @Test
     void deveCalcularIdadeCorretamente() {
-        Pessoa pessoa = new Pessoa("Júlia", LocalDate.of(2000, 1, 1));
+        Pessoa pessoa = new Pessoa("Ana Almeida", LocalDate.of(1974, 12, 16));
 
-        Assertions.assertEquals(23, pessoa.getIdade());
+        Assertions.assertEquals(48, pessoa.getIdade());
     }
 
     @Test 
