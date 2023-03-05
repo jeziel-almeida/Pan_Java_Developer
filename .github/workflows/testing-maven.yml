@@ -1,0 +1,15 @@
+name: Testing Maven
+run-name: ${{ github.actor }} is doing tests 🚀
+on: [push]
+jobs:
+  test-maven:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out do código do repositório
+        uses: actions/checkout@v3
+      - name: Mvn test
+        run: |
+          cd Maven/junit-exemplos
+          mvn install
+          mvn test
+      - run: echo "🍏 O status do job é ${{ job.status }}."
