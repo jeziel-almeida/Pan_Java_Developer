@@ -16,7 +16,7 @@ public class OrdemAlfabetica {
 
     @Test
     void validaFluxoA() {
-        Assertions.assertTrue(true);
+        Assertions.assertTrue(false);
         System.out.println("Fluxo A executado");
     }
 
