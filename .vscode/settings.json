@@ -14,5 +14,6 @@
         "Gradle/testes/app/src/main/java",
         "Maven/junit-exemplos/src/main/java",
         "Desafios/desafio-poo-dio/src/main/java"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
