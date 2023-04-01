@@ -5,6 +5,8 @@
         "pkief.material-icon-theme",
         "aaron-bond.better-comments",
         "vscjava.vscode-java-pack",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-mysql",
     ],
 
     "settings": {
