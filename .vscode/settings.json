@@ -15,5 +15,20 @@
         "Maven/junit-exemplos/src/main/java",
         "Desafios/desafio-poo-dio/src/main/java"
     ],
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "ConexaoTeste",
+            "database": "db",
+            "username": "user",
+            "askForPassword": true
+        }
+    ]
 }
