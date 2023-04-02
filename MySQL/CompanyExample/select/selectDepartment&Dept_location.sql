@@ -1,0 +1,1 @@
+SELECT Dname as Nome_departamento, dl.Dlocation as Localizacao FROM department as d, dept_location as dl WHERE d.Dnumber = dl.Dnumber;

@@ -1,1 +1,1 @@
-load data infile 'path' into table employee fields terminated by ',' lines terminated by ';';
+select * from dept_location;

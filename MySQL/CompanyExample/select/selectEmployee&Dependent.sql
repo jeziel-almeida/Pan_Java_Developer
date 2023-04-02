@@ -1,0 +1,1 @@
+SELECT Fname, Dependent_name, Relationship FROM employee, dependent WHERE Essn = Ssn;

@@ -1,0 +1,1 @@
+SELECT Ssn, Fname, Dname FROM employee e, department d WHERE (e.Ssn = d.Mgr_ssn);
